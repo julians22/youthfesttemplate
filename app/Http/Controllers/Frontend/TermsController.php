@@ -14,4 +14,9 @@ class TermsController
     {
         return view('frontend.pages.terms');
     }
+
+    public function privacy_policy()
+    {
+        return view('frontend.pages.privacy-policy');
+    }
 }

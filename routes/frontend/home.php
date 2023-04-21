@@ -20,3 +20,10 @@ Route::get('terms', [TermsController::class, 'index'])
         $trail->parent('frontend.index')
             ->push(__('Terms & Conditions'), route('frontend.pages.terms'));
     });
+
+Route::get('privacy-policy', [TermsController::class, 'privacy_policy'])
+    ->name('pages.privacy')
+    ->breadcrumbs(function (Trail $trail) {
+        $trail->parent('frontend.index')
+            ->push(__('Privacy Policy'), route('frontend.pages.terms'));
+    });

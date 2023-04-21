@@ -12,18 +12,203 @@
                     </x-slot>
 
                     <x-slot name="body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Molestie ac feugiat sed lectus. Egestas diam in arcu cursus. Vitae nunc sed velit dignissim sodales ut eu sem. Nibh praesent tristique magna sit amet purus gravida quis. Tincidunt lobortis feugiat vivamus at augue. Mi quis hendrerit dolor magna eget est lorem. Dapibus ultrices in iaculis nunc sed augue lacus viverra vitae. Ullamcorper malesuada proin libero nunc consequat interdum varius. Tellus elementum sagittis vitae et leo duis ut diam quam. Nisl pretium fusce id velit. Sed enim ut sem viverra aliquet.</p>
 
-                        <p>Laoreet suspendisse interdum consectetur libero id. Duis ut diam quam nulla porttitor massa id neque. Nullam eget felis eget nunc lobortis mattis aliquam faucibus. Tristique sollicitudin nibh sit amet commodo. A erat nam at lectus urna duis convallis convallis. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec. Bibendum ut tristique et egestas. Risus sed vulputate odio ut enim blandit volutpat maecenas. Lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Tristique sollicitudin nibh sit amet commodo. Ac felis donec et odio pellentesque diam volutpat commodo sed. Quam quisque id diam vel. Massa tempor nec feugiat nisl pretium fusce id. Consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat.</p>
+                        <p>Welcome to Youth Festival!</p>
 
-                        <p>Gravida rutrum quisque non tellus orci. Eget mauris pharetra et ultrices neque. Habitasse platea dictumst quisque sagittis purus sit amet volutpat. Nunc consequat interdum varius sit amet mattis vulputate enim. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus. Tempor nec feugiat nisl pretium. Fames ac turpis egestas integer eget aliquet nibh. Mus mauris vitae ultricies leo integer. Vitae proin sagittis nisl rhoncus mattis rhoncus. Commodo odio aenean sed adipiscing diam donec. Purus semper eget duis at tellus at urna condimentum mattis.</p>
+                        <p>These terms and conditions outline the rules and regulations for the use of Good Day Youth
+                            Festival's Website, located at youthfest-julian.democube.id.</p>
 
-                        <p>Porttitor rhoncus dolor purus non enim praesent elementum facilisis. Massa massa ultricies mi quis hendrerit. Nunc id cursus metus aliquam eleifend mi in nulla posuere. In nisl nisi scelerisque eu ultrices vitae auctor eu augue. Libero nunc consequat interdum varius sit amet mattis vulputate enim. Accumsan tortor posuere ac ut consequat semper viverra nam. Massa tincidunt dui ut ornare. Elit sed vulputate mi sit amet mauris commodo. Faucibus nisl tincidunt eget nullam non nisi. Tortor condimentum lacinia quis vel eros donec ac odio. Posuere ac ut consequat semper. Vestibulum mattis ullamcorper velit sed ullamcorper. Blandit libero volutpat sed cras. Ultricies integer quis auctor elit sed vulputate mi. In hendrerit gravida rutrum quisque non tellus orci ac. Orci phasellus egestas tellus rutrum tellus pellentesque eu. Etiam non quam lacus suspendisse faucibus interdum. Ornare lectus sit amet est. Bibendum est ultricies integer quis auctor elit sed vulputate. Eget duis at tellus at urna.</p>
+                        <p>By accessing this website we assume you accept these terms and conditions. Do not continue to use
+                            Youth Festival if you do not agree to take all of the terms and conditions stated on this page.
+                        </p>
 
-                        <p>Sit amet massa vitae tortor condimentum lacinia quis. Id venenatis a condimentum vitae sapien pellentesque habitant. Ac tortor dignissim convallis aenean. Consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Id porta nibh venenatis cras sed felis. Fermentum odio eu feugiat pretium. Id velit ut tortor pretium viverra. Quis auctor elit sed vulputate mi sit amet mauris. Vel elit scelerisque mauris pellentesque pulvinar pellentesque. Facilisis volutpat est velit egestas dui id ornare. Pretium viverra suspendisse potenti nullam ac. Nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Amet purus gravida quis blandit turpis.</p>
+                        <p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer
+                            Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this
+                            website and compliant to the Company's terms and conditions. "The Company", "Ourselves", "We",
+                            "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client
+                            and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary
+                            to undertake the process of our assistance to the Client in the most appropriate manner for the
+                            express purpose of meeting the Client's needs in respect of provision of the Company's stated
+                            services, in accordance with and subject to, prevailing law of id. Any use of the above
+                            terminology or other words in the singular, plural, capitalization and/or he/she or they, are
+                            taken as interchangeable and therefore as referring to same.</p>
+
+                        <h3><strong>Cookies</strong></h3>
+
+                        <p>We employ the use of cookies. By accessing Youth Festival, you agreed to use cookies in agreement
+                            with the Good Day Youth Festival's Privacy Policy. </p>
+
+                        <p>Most interactive websites use cookies to let us retrieve the user's details for each visit.
+                            Cookies are used by our website to enable the functionality of certain areas to make it easier
+                            for people visiting our website. Some of our affiliate/advertising partners may also use
+                            cookies.</p>
+
+                        <h3><strong>License</strong></h3>
+
+                        <p>Unless otherwise stated, Good Day Youth Festival and/or its licensors own the intellectual
+                            property rights for all material on Youth Festival. All intellectual property rights are
+                            reserved. You may access this from Youth Festival for your own personal use subjected to
+                            restrictions set in these terms and conditions.</p>
+
+                        <p>You must not:</p>
+                        <ul>
+                            <li>Republish material from Youth Festival</li>
+                            <li>Sell, rent or sub-license material from Youth Festival</li>
+                            <li>Reproduce, duplicate or copy material from Youth Festival</li>
+                            <li>Redistribute content from Youth Festival</li>
+                        </ul>
+
+                        <p>This Agreement shall begin on the date hereof. Our Terms and Conditions were created with the
+                            help of the <a href="https://www.termsfeed.com/terms-conditions-generator/">Terms and Conditions
+                                Generator</a>.</p>
+
+                        <p>Parts of this website offer an opportunity for users to post and exchange opinions and
+                            information in certain areas of the website. Good Day Youth Festival does not filter, edit,
+                            publish or review Comments prior to their presence on the website. Comments do not reflect the
+                            views and opinions of Good Day Youth Festival,its agents and/or affiliates. Comments reflect the
+                            views and opinions of the person who post their views and opinions. To the extent permitted by
+                            applicable laws, Good Day Youth Festival shall not be liable for the Comments or for any
+                            liability, damages or expenses caused and/or suffered as a result of any use of and/or posting
+                            of and/or appearance of the Comments on this website.</p>
+
+                        <p>Good Day Youth Festival reserves the right to monitor all Comments and to remove any Comments
+                            which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.
+                        </p>
+
+                        <p>You warrant and represent that:</p>
+
+                        <ul>
+                            <li>You are entitled to post the Comments on our website and have all necessary licenses and
+                                consents to do so;</li>
+                            <li>The Comments do not invade any intellectual property right, including without limitation
+                                copyright, patent or trademark of any third party;</li>
+                            <li>The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise
+                                unlawful material which is an invasion of privacy</li>
+                            <li>The Comments will not be used to solicit or promote business or custom or present commercial
+                                activities or unlawful activity.</li>
+                        </ul>
+
+                        <p>You hereby grant Good Day Youth Festival a non-exclusive license to use, reproduce, edit and
+                            authorize others to use, reproduce and edit any of your Comments in any and all forms, formats
+                            or media.</p>
+
+                        <h3><strong>Hyperlinking to our Content</strong></h3>
+
+                        <p>The following organizations may link to our Website without prior written approval:</p>
+
+                        <ul>
+                            <li>Government agencies;</li>
+                            <li>Search engines;</li>
+                            <li>News organizations;</li>
+                            <li>Online directory distributors may link to our Website in the same manner as they hyperlink
+                                to the Websites of other listed businesses; and</li>
+                            <li>System wide Accredited Businesses except soliciting non-profit organizations, charity
+                                shopping malls, and charity fundraising groups which may not hyperlink to our Web site.</li>
+                        </ul>
+
+                        <p>These organizations may link to our home page, to publications or to other Website information so
+                            long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship,
+                            endorsement or approval of the linking party and its products and/or services; and (c) fits
+                            within the context of the linking party's site.</p>
+
+                        <p>We may consider and approve other link requests from the following types of organizations:</p>
+
+                        <ul>
+                            <li>commonly-known consumer and/or business information sources;</li>
+                            <li>dot.com community sites;</li>
+                            <li>associations or other groups representing charities;</li>
+                            <li>online directory distributors;</li>
+                            <li>internet portals;</li>
+                            <li>accounting, law and consulting firms; and</li>
+                            <li>educational institutions and trade associations.</li>
+                        </ul>
+
+                        <p>We will approve link requests from these organizations if we decide that: (a) the link would not
+                            make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does
+                            not have any negative records with us; (c) the benefit to us from the visibility of the
+                            hyperlink compensates the absence of Good Day Youth Festival; and (d) the link is in the context
+                            of general resource information.</p>
+
+                        <p>These organizations may link to our home page so long as the link: (a) is not in any way
+                            deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party
+                            and its products or services; and (c) fits within the context of the linking party's site.</p>
+
+                        <p>If you are one of the organizations listed in paragraph 2 above and are interested in linking to
+                            our website, you must inform us by sending an e-mail to Good Day Youth Festival. Please include
+                            your name, your organization name, contact information as well as the URL of your site, a list
+                            of any URLs from which you intend to link to our Website, and a list of the URLs on our site to
+                            which you would like to link. Wait 2-3 weeks for a response.</p>
+
+                        <p>Approved organizations may hyperlink to our Website as follows:</p>
+
+                        <ul>
+                            <li>By use of our corporate name; or</li>
+                            <li>By use of the uniform resource locator being linked to; or</li>
+                            <li>By use of any other description of our Website being linked to that makes sense within the
+                                context and format of content on the linking party's site.</li>
+                        </ul>
+
+                        <p>No use of Good Day Youth Festival's logo or other artwork will be allowed for linking absent a
+                            trademark license agreement.</p>
+
+                        <h3><strong>iFrames</strong></h3>
+
+                        <p>Without prior approval and written permission, you may not create frames around our Webpages that
+                            alter in any way the visual presentation or appearance of our Website.</p>
+
+                        <h3><strong>Content Liability</strong></h3>
+
+                        <p>We shall not be hold responsible for any content that appears on your Website. You agree to
+                            protect and defend us against all claims that is rising on your Website. No link(s) should
+                            appear on any Website that may be interpreted as libelous, obscene or criminal, or which
+                            infringes, otherwise violates, or advocates the infringement or other violation of, any third
+                            party rights.</p>
+
+                        <h3><strong>Reservation of Rights</strong></h3>
+
+                        <p>We reserve the right to request that you remove all links or any particular link to our Website.
+                            You approve to immediately remove all links to our Website upon request. We also reserve the
+                            right to amen these terms and conditions and it's linking policy at any time. By continuously
+                            linking to our Website, you agree to be bound to and follow these linking terms and conditions.
+                        </p>
+
+                        <h3><strong>Removal of links from our website</strong></h3>
+
+                        <p>If you find any link on our Website that is offensive for any reason, you are free to contact and
+                            inform us any moment. We will consider requests to remove links but we are not obligated to or
+                            so or to respond to you directly.</p>
+
+                        <p>We do not ensure that the information on this website is correct, we do not warrant its
+                            completeness or accuracy; nor do we promise to ensure that the website remains available or that
+                            the material on the website is kept up to date.</p>
+
+                        <h3><strong>Disclaimer</strong></h3>
+
+                        <p>To the maximum extent permitted by applicable law, we exclude all representations, warranties and
+                            conditions relating to our website and the use of this website. Nothing in this disclaimer will:
+                        </p>
+
+                        <ul>
+                            <li>limit or exclude our or your liability for death or personal injury;</li>
+                            <li>limit or exclude our or your liability for fraud or fraudulent misrepresentation;</li>
+                            <li>limit any of our or your liabilities in any way that is not permitted under applicable law;
+                                or</li>
+                            <li>exclude any of our or your liabilities that may not be excluded under applicable law.</li>
+                        </ul>
+
+                        <p>The limitations and prohibitions of liability set in this Section and elsewhere in this
+                            disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising
+                            under the disclaimer, including liabilities arising in contract, in tort and for breach of
+                            statutory duty.</p>
+
+                        <p>As long as the website and the information and services on the website are provided free of
+                            charge, we will not be liable for any loss or damage of any nature.</p>
                     </x-slot>
                 </x-frontend.card>
-            </div><!--col-md-10-->
-        </div><!--row-->
-    </div><!--container-->
+            </div>
+            <!--col-md-10-->
+        </div>
+        <!--row-->
+    </div>
+    <!--container-->
 @endsection
