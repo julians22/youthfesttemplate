@@ -92,7 +92,7 @@
                 @include('includes.partials.messages')
 
                 <div class="title m-b-md">
-                    <example-component></example-component>
+                    Welcome To Youth Festival
                 </div><!--title-->
 
                 <div class="links">
