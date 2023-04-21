@@ -2,7 +2,9 @@
 
 use App\Http\Controllers\Frontend\User\AccountController;
 use App\Http\Controllers\Frontend\User\DashboardController;
+use App\Http\Controllers\Frontend\User\PostController;
 use App\Http\Controllers\Frontend\User\ProfileController;
+use Faker\Guesser\Name;
 use Tabuna\Breadcrumbs\Trail;
 
 /*
@@ -27,4 +29,14 @@ Route::group(['as' => 'user.', 'middleware' => ['auth', 'password.expires', conf
         });
 
     Route::patch('profile/update', [ProfileController::class, 'update'])->name('profile.update');
+
+
+});
+
+Route::group(['prefix' => 'post','as' => 'post.',  'middleware' => ['auth', 'password.expires', config('boilerplate.access.middleware.verified')]], function() {
+    Route::get('create', [PostController::class, 'create'])
+        ->middleware('is_user')
+        ->name('create');
+    Route::post('/', [PostController::class, 'store'])
+        ->name('store');
 });

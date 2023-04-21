@@ -1,6 +1,6 @@
 <template>
-    <div class="btn-group dropright">
-        <button type="button" class="btn btn-primary btn-sm dropdown-toggle sharer" data-toggle="dropdown" aria-expanded="false">
+    <div class="btn-group dropright" :ref="`parent-dropdown-${postId}`">
+        <button type="button" class="btn btn-primary btn-sm dropdown-toggle sharer"  data-toggle="dropdown" aria-expanded="false">
             Bagikan
 
             <i class="fas fa-share-alt ml-1"></i>
@@ -24,6 +24,19 @@ export default {
         return {
             isOpen: false
         }
+    },
+
+    mounted(){
+        const parentDropdown = this.$refs[`parent-dropdown-${this.postId}`];
+        $(parentDropdown).on('show.bs.dropdown', function () {
+            $('main').addClass('overflow-auto');
+            $('main').removeClass('overflow-hidden');
+        });
+
+        $(parentDropdown).on('hide.bs.dropdown', function () {
+            $('main').addClass('overflow-hidden');
+            $('main').removeClass('overflow-auto');
+        });
     },
 
     methods: {

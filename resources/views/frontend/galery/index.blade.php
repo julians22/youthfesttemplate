@@ -4,8 +4,8 @@
 
 @section('content')
 
-<div class="container">
-    <div class="row mt-4">
+<div class="container py-4">
+    <div class="row">
             <div class="col-md-12">
                 <div class="d-flex justify-content-between row">
                     <div class="col-md-6">
@@ -14,17 +14,19 @@
                                 <div class="col-md-4">
                                     <input type="text" name="keyword" placeholder="Cari Postingan!" value="{{ $query['keyword'] ?? '' }}" class="form-control">
                                 </div>
-                                <button class="btn btn-primary" type="submit">Terapkan</button>
+                                <div class="col px-md-0">
+                                    <button class="btn btn-primary mt-2 mt-md-0" type="submit">Terapkan</button>
+                                </div>
                             </div>
                         </form>
                     </div>
 
                     <div class="col-md-6">
                         <div class="form-group row justify-content-end">
-                            <label for="sort" class="col-form-label col-md-3 text-right">
+                            <label for="sort" class="col-form-label col-md-3 text-md-right">
                                 <small>Urutkan :</small>
                             </label>
-                            <div class="col-md-4 pl-0">
+                            <div class="col-md-4 pl-md-0">
                                 <select class="custom-select form-control" name="sort" id="sort">
                                     <option value="default" {{$query['sort'] == 'default' ? 'selected' : ''}}>Tidak ada</option>
                                     <option value="popularity" {{$query['sort'] == 'popularity' ? 'selected' : ''}}>Paling Populer</option>
@@ -42,12 +44,16 @@
                     @foreach ($posts as $post)
                     <div class="card">
                         <div class="card-body">
+                            <div class="thumbnail mb-2">
+                                @if ($post->hasVideo())
+                                    <img src="{{ asset('storage/post_thumbnails/'.$post->video->thumbnail) }}" alt="" class="w-100 rounded">
+                                @endif
+                            </div>
                             <div class="position-relative">
                                 <a href="{{ route('frontend.galery.show', ['slug'=>$post->slug]) }}" style="position: absolute; inset: 0"></a>
                                 <h5 class="card-title text-primary mb-2">{{ $post->user->name }}</h5>
                                 <p class="card-subtitle small mb-1">@displayDate($post->created_at, 'l, F jS Y')</p>
                                 <p class="card-subtitle small mb-3">@displayDate($post->created_at, 'g:i A T')</p>
-
                                 <p>{{ $post->title }}</p>
                             </div>
 

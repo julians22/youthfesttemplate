@@ -8,6 +8,7 @@ use Spatie\Sluggable\SlugOptions;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Share;
 
@@ -40,6 +41,14 @@ class Post extends Model
     }
 
     /**
+     * @var string[]
+     */
+    protected $with = [
+        'user',
+        'video'
+    ];
+
+    /**
      * Get the share_links attribute
      *
      * @return array
@@ -64,5 +73,20 @@ class Post extends Model
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class, 'user_id', 'id');
+    }
+
+    /**
+     * Get the video associated with the Post
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasOne
+     */
+    public function video(): HasOne
+    {
+        return $this->hasOne(Video::class, 'post_id', 'id');
+    }
+
+    public function hasVideo()
+    {
+        return $this->video;
     }
 }

@@ -4,10 +4,9 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use App\Models\Post;
+use Http;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\Request;
-use Route;
-use Share;
 
 class GaleryController extends Controller
 {
@@ -49,6 +48,35 @@ class GaleryController extends Controller
     {
         $post = Post::where('slug', $slug)->first();
 
-        return view('frontend.galery.show', compact('post'));
+        $video = collect([]);
+
+        if ($post->hasVideo()) {
+            $postVideo = $post->video;
+            switch ($postVideo->type) {
+                case 'tiktok':
+                    $data = Http::get('https://www.tiktok.com/oembed', [
+                        'url' => $postVideo->url
+                    ]);
+
+                    $video['data'] = json_decode($data);
+                    $video['type'] = 'tiktok';
+                    break;
+                case 'youtube':
+                    $data = Http::get('https://youtube.com/oembed', [
+                        'url' => $postVideo->url,
+                        'format' => 'json'
+                    ]);
+                    // dd($data->body());
+                    $video['data'] = json_decode($data->body());
+                    $video['type'] = 'tiktok';
+
+                    break;
+                default:
+                    # code...
+                    break;
+            }
+        }
+
+        return view('frontend.galery.show', compact('post', 'video'));
     }
 }
