@@ -71,6 +71,16 @@ class GaleryController extends Controller
                     $video['type'] = 'tiktok';
 
                     break;
+                case 'instagram':
+
+                    $data = Http::get('https://graph.facebook.com/v16.0/instagram_oembed', [
+                        'url' => $postVideo->url,
+                        'access_token' => '1169256277335189%7CCMWBlG_WMnE5IekzvyvQFz4Xk0A'
+                    ]);
+
+                    $video['data'] = json_decode($data->body());
+                    $video['type'] = 'tiktok';
+                    break;
                 default:
                     # code...
                     break;

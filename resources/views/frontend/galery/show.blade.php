@@ -42,7 +42,9 @@
                         @endif
 
                         @if ($post->video->isType('instagram'))
-                            <div class="instagram-wrapper">Youtube</div>
+                            <div class="instagram-wrapper">
+                                {!! $video['data']->html !!}
+                            </div>
                         @endif
 
 
